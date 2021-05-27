@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=AmpliconDuo
 
 Package license: GPL (>= 3)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ampliconduo-feedstock/blob/master/LICENSE.txt)
 
 Summary: Increasingly powerful techniques for high-throughput sequencing open the possibility to comprehensively characterize microbial communities, including rare species. However, a still unresolved issue are the substantial error rates in the experimental process generating these sequences. To overcome these limitations we propose an approach, where each sample is split and the same amplification and sequencing protocol is applied to both halves. This procedure should allow to detect likely PCR and sequencing artifacts, and true rare species by comparison of the results of both parts. The AmpliconDuo package, whereas amplicon duo from here on refers to the two amplicon data sets of a split sample, is intended to help interpret the obtained read frequency distribution across split samples, and to filter the false positive reads.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-ampliconduo` from the `conda-forge` channel can be achieved by add
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-ampliconduo` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
