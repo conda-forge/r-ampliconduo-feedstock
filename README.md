@@ -1,11 +1,11 @@
-About r-ampliconduo
-===================
+About r-ampliconduo-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ampliconduo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=AmpliconDuo
 
 Package license: GPL (>= 3)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ampliconduo-feedstock/blob/main/LICENSE.txt)
 
 Summary: Increasingly powerful techniques for high-throughput sequencing open the possibility to comprehensively characterize microbial communities, including rare species. However, a still unresolved issue are the substantial error rates in the experimental process generating these sequences. To overcome these limitations we propose an approach, where each sample is split and the same amplification and sequencing protocol is applied to both halves. This procedure should allow to detect likely PCR and sequencing artifacts, and true rare species by comparison of the results of both parts. The AmpliconDuo package, whereas amplicon duo from here on refers to the two amplicon data sets of a split sample, is intended to help interpret the obtained read frequency distribution across split samples, and to filter the false positive reads.
 
